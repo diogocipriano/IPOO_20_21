@@ -12,7 +12,7 @@ public enum Size {
     LARGE(45, 52, "Grande",'L');
     private final String description;
     private final int minValue;
-    private final int maxValue;
+    private final int maxValue; 
     private final char code;
 
     private Size(int minValue, int maxValue, String description, char code){
